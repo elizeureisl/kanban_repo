@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AlignLeft, CheckSquare, Clock, MoreHorizontal } from "react-feather";
-import { formatDate } from "../../Helper/Util";
-import { ICard } from "../../Interfaces/Kanban";
+import { formatDate } from "../../../controllers/Helper/Util";
+import { ICard } from "../../../Interfaces/Kanban";
 import Chip from "../Common/Chip";
 import Dropdown from "../Dropdown/Dropdown";
 

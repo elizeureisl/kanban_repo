@@ -1,4 +1,4 @@
-import { IBoard } from "../Interfaces/Kanban";
+import { IBoard } from "../../Interfaces/Kanban";
 
 export const ApiMockResponse: IBoard[] = [
   {

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Board from "../Components/Board/Board";
+import Board from "../../views/Components/Board/Board";
 import "./Dashboard.css";
-import CustomInput from "../Components/CustomInput/CustomInput";
-import { ICard, IBoard } from "../Interfaces/Kanban";
+import CustomInput from "../../views/Components/CustomInput/CustomInput";
+import { ICard, IBoard } from "../../Interfaces/Kanban";
 import { fetchBoardList, updateLocalStorageBoards } from "../Helper/APILayers";
 
 function Dashboard() {

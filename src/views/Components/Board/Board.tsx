@@ -6,7 +6,7 @@ import Dropdown from "../Dropdown/Dropdown";
 import CustomInput from "../CustomInput/CustomInput";
 
 import "./Board.css";
-import { IBoard, ICard } from "../../Interfaces/Kanban";
+import { IBoard, ICard } from "../../../Interfaces/Kanban";
 
 interface BoardProps {
   board: IBoard;

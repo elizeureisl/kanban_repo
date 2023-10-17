@@ -1,5 +1,5 @@
-import { ApiMockResponse } from "../ApiMockData/dummyData";
-import { IBoard } from "../Interfaces/Kanban";
+import { ApiMockResponse } from "../../models/ApiMockData/dummyData";
+import { IBoard } from "../../Interfaces/Kanban";
 
 const LocalStorageKeyName = "kanban-boards";
 //Data Layer

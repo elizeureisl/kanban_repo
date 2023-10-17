@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Calendar, CheckSquare, List, Tag, Trash, Type } from "react-feather";
-import { colorsList } from "../../../Helper/Util";
+import { colorsList } from "../../../../controllers/Helper/Util";
 import Modal from "../../Modal/Modal";
 import CustomInput from "../../CustomInput/CustomInput";
 
 import "./CardInfo.css";
-import { ICard, ILabel, ITask } from "../../../Interfaces/Kanban";
+import { ICard, ILabel, ITask } from "../../../../Interfaces/Kanban";
 import Chip from "../../Common/Chip";
 interface CardInfoProps {
   onClose: () => void;
