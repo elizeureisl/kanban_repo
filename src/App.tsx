@@ -1,4 +1,4 @@
-import Dashboard from "./Home/Dashboard";
+import Dashboard from "./controllers/Home/Dashboard";
 
 function App() {
   return <Dashboard />;
